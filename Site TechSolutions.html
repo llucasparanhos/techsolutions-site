@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Vitrine Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="faixa-azul">
+        <div class="header-content">
+            <img src="Img-Header.png" alt="Logo TechSolutions" class="logo-centralizado">
+            <button id="toggle-mode" class="btn-toggle" aria-label="Alternar modo claro/escuro">
+                🌓 Alternar Modo
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="cor-branca">
+            <div class="container">
+                <h2>A TechSolutions</h2>
+                <p>A TechSolutions é uma startup inovadora focada em soluções tecnológicas para pequenas e médias empresas em Salvador. Buscamos criar uma presença online profissional e eficiente para nossos clientes.</p>
+            </div>
+        </section>
+
+        <section class="cor-azul">
+            <div class="container">
+                <div class="img-wrapper">
+                    <img src="img_serviços.png" alt="Serviços" class="img-destaque">
+                </div>
+                <h2>Serviços Oferecidos</h2>
+                <ul>
+                    <li>Consultoria tecnológica para PMEs.</li>
+                    <li>Desenvolvimento de presença online.</li>
+                    <li>Soluções rápidas e eficientes para startups.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cor-branca">
+            <div class="container">
+                <div class="img-wrapper">
+                    <img src="img_equipe.png" alt="Equipe" class="img-destaque">
+                </div>
+                <h2>Nossa Equipe</h2>
+                <ol>
+                    <li>Lucas de Castro - CEO.</li>
+                    <li>Ana Santos - Desenvolvedora Web.</li>
+                    <li>Pedro Paranhos - Product Designer.</li>
+                    <li>Tiago Tourinho - Consultor de TI.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="cor-azul">
+            <div class="container">
+                <h2>Informações de Contato</h2>
+                <p>
+                    E-mail: contato@techsolutions.com.br <br>
+                    Telefone: (71) 91234-5678 <br><br>
+                    <a href="https://www.linkedin.com" target="_blank">Visite nosso LinkedIn</a> <br>
+                    <a href="https://goo.gl/maps/exemplo" target="_blank">Veja nossa localização no mapa</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="cor-branca">
+            <div class="container">
+                <h2 class="text-center">ÁREA DE CADASTRO</h2>
+                <form>
+                    <fieldset>
+                        <legend>1-IDENTIFICAÇÃO:</legend>
+                        <div class="campo">
+                            <label>NOME COMPLETO:</label>
+                            <input type="text" name="nome" minlength="10" maxlength="100" required>
+                        </div>
+                        <div class="campo">
+                            <label>CEP:</label>
+                            <input type="text" name="cep" placeholder="00000-000" pattern="\d{5}-\d{3}">
+                        </div>
+                        <div class="campo">
+                            <label>TELEFONE:</label>
+                            <input type="text" name="telefone" placeholder="(00) 00000-0000" pattern="\(\d{2}\) \d{5}-\d{4}">
+                        </div>
+                        <div class="campo">
+                            <label>CRIAR SENHA:</label>
+                            <input type="password" name="senha_usuario">
+                        </div>
+                        <div class="campo-checkbox">
+                            <input type="checkbox" id="termos" name="aceite_termos" required> 
+                            <label for="termos">Aceito os termos de cadastro.</label>
+                        </div>
+                    </fieldset>
+                    <div class="botoes">
+                        <input type="submit" value="SALVAR" class="btn-enviar">
+                        <input type="reset" value="LIMPAR" class="btn-limpar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechSolutions - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
